@@ -1,16 +1,7 @@
-# testapi
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A demo flutter application using Clean Architecture to connect with the RestApi to fetch the products data developed using FastApi, SQLAlchemy, Uvicorn(Virtual Environment) 
+For the server side application, we can download the project from 
+https://github.com/keshavpai87/Python-Postgres-FastAPI-SQLAlchemy-Uvicorn-Pydantic 
+We need to run the server by using the following steps
+1. python -m venv myenv
+2. myenv\Scripts\Activate.ps1
+3. uvicorn main:app --host 0.0.0.0 --port 8000 This makes sure that the TCP port 8000 is open and can be accessed from any physical device which has the flutter application
